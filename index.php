@@ -636,6 +636,24 @@
 				</div>
 			</section>
 			<!-- /PARALLAX -->
+			
+			<section class="padding-md parallax parallax-2" style="background-image: url('<?php echo $url; ?>assets/images/demo/1200x800/1-min.jpg');">
+				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="nomargin">About Skinny's Repair Shop</h3>
+						<p class="font-lato weight-300 lead nomargin-top">At Skinny’s we love what we do. One guy’s dream has turned into a small business of family and friends. As personal and vital as technology has become to all of us, we know how important it is to get your device back lickity split. That’s why we strive to create a place you actually want to go. No lines, no appointments, no worries. After all, breaking your phone is no fun, but who says getting it fixed can’t be?</p>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="padding-xs timeline-img-container">
+				<img class="timeline-img" alt="Skinny's Repair Shop Timeline" src="<?php echo $url; ?>assets/images/about-us-timeline.jpg">
+			</section>
 
 			<!-- 
 						controlls-over		= navigation buttons over the image 
