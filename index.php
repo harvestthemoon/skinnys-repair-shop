@@ -1,3 +1,12 @@
+<?php
+	 	if(isset($_SERVER['HTTPS'])):
+        $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+    else:
+        $protocol = 'http';
+    endif;
+
+    $url = $protocol . '://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+?>
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
@@ -17,24 +26,24 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" type="text/css">
 
 		<!-- CORE CSS -->
-		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
 		<!-- REVOLUTION SLIDER -->
-		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css">
-		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css">
 
 		<!-- SWIPER SLIDER -->
-		<link href="assets/plugins/slider.swiper/dist/css/swiper.min.css" rel="stylesheet" type="text/css" />
+		<link href="<?php echo $url; ?>assets/plugins/slider.swiper/dist/css/swiper.min.css" rel="stylesheet" type="text/css" />
 
 		<!-- THEME CSS -->
-		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/layout.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/css/essentials.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/css/layout.css" rel="stylesheet" type="text/css">
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme">
+		<link href="<?php echo $url; ?>assets/css/header-1.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme">
 
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/css/style.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<!--
@@ -116,7 +125,6 @@
 									</li>
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
-									<li><?php echo $_SERVER['SERVER_NAME']; ?></li>
 									<li>
 										<a href="#">
 											HOME
@@ -129,7 +137,7 @@
 									</li>
 									<li class="logo-list-item">
 										<a class="logo pull-left" href="#">
-											<img src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/skinnys-logo.png" alt="Skinny's Repair Shop Logo" />
+											<img src="<?php echo $url; ?>assets/images/skinnys-logo.png" alt="Skinny's Repair Shop Logo" />
 										</a>
 									</li>
 									<li>
@@ -174,7 +182,7 @@
 					<div class="swiper-wrapper">
 
 						<!-- SLIDE 1 -->
-						<div class="swiper-slide" style="background-image: url('<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/demo/720x400/34-min.jpg');">
+						<div class="swiper-slide" style="background-image: url('<?php echo $url; ?>assets/images/demo/720x400/34-min.jpg');">
 							<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 							
 							<div class="display-table">
@@ -220,8 +228,7 @@
 							<i class="icon-gplus"></i>
 							<i class="icon-gplus"></i>
 						</a>
-						<a href="
-https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-light  social-instagram">
+						<a href="https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-light  social-instagram">
 							<i class="icon-instagram"></i>
 							<i class="icon-instagram"></i>
 						</a>
@@ -348,7 +355,7 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 			</section>
 
 			<!-- -->
-			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/demo/1200x800/20-min.jpg')">
+			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $url; ?>assets/images/demo/1200x800/20-min.jpg')">
 				<div class="overlay dark-6"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -516,7 +523,7 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 							</div><!-- /Alert Mandatory -->
 
 
-							<form action="php/contact.php" method="post" enctype="multipart/form-data" _lpchecked="1">
+							<form action="<?php echo $url; ?>php/contact.php" method="post" enctype="multipart/form-data" _lpchecked="1">
 								<fieldset>
 									<input type="hidden" name="action" value="contact_send">
 
@@ -576,28 +583,28 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 						<!-- /FORM -->
 
 						<!-- INFO -->
-                                                <div class="col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-3">
 
-                                                        <h2>Stephenville, TX</h2>
+                    <h2>Stephenville, TX</h2>
 
-                                                        <p>
-                                                                <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 120 E Washington St, Stephenville, TX 76401</span>
-                                                                <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1254-459-1224">1-(254)-459-1224 (Repairs)</a><br />
-                                                                        <a class="second-phone-link" href="tel:1254-459-9449">1-(254)-459-9449 (IT Inquiries)</a></span>
-                                                                <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:help@skinnyspr.com">help@skinnyspr.com</a>
-                                                        </p>
+                    <p>
+                            <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 120 E Washington St, Stephenville, TX 76401</span>
+                            <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1254-459-1224">1-(254)-459-1224 (Repairs)</a><br />
+                                    <a class="second-phone-link" href="tel:1254-459-9449">1-(254)-459-9449 (IT Inquiries)</a></span>
+                            <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:help@skinnyspr.com">help@skinnyspr.com</a>
+                    </p>
 
-                                                        <hr>
+                    <hr>
 
-                                                        <h4 class="font300">Business Hours</h4>
-                                                        <p>
-                                                                <span class="block"><strong>Monday - Friday:</strong> 10am to 6pm</span>
-                                                                <span class="block"><strong>Saturday:</strong> 10am to 2pm</span>
-                                                                <span class="block"><strong>Sunday:</strong> Closed</span>
-                                                        </p>
+                    <h4 class="font300">Business Hours</h4>
+                    <p>
+                            <span class="block"><strong>Monday - Friday:</strong> 10am to 6pm</span>
+                            <span class="block"><strong>Saturday:</strong> 10am to 2pm</span>
+                            <span class="block"><strong>Sunday:</strong> Closed</span>
+                    </p>
 
-                                                </div>
-                                                <!-- /INFO -->
+            </div>
+            <!-- /INFO -->
 
 
 						<!-- INFO -->
@@ -643,37 +650,37 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 					<span class="authorized-reseller-text">Authorized reseller of:</span>
 					<div id="logos-bottom" class="owl-carousel nomargin text-center" data-plugin-options='{"singleItem": false, "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": false, "pagination": true}'>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-mophie.png" alt="Mophie Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-mophie.png" alt="Mophie Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-lifeproof.png" alt="Lifeproof Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-lifeproof.png" alt="Lifeproof Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-incipio.png" alt="Incipio Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-incipio.png" alt="Incipio Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-gadget-guard.png" alt="Gagdget Guard Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-gadget-guard.png" alt="Gagdget Guard Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-speck.png" alt="Speck Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-speck.png" alt="Speck Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-otterbox.png" alt="Otterbox Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-otterbox.png" alt="Otterbox Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-sonix.png" alt="Sonix Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-sonix.png" alt="Sonix Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-spigen.png" alt="Spigen Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-spigen.png" alt="Spigen Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-belkin.png" alt="Belkin Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-belkin.png" alt="Belkin Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-marley.png" alt="Marley Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-marley.png" alt="Marley Logo">
 						</div>
 						<div>
-							<img class="img-responsive" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/images/product-logos/logo-puregear.png" alt="Puregear Logo">
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-puregear.png" alt="Puregear Logo">
 						</div>
 					</div>
 
@@ -682,10 +689,6 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 				<div class="container">
 
 					<div class="row">
-						
-						
-
-						
 
 						<div class="col-md-4">
 
@@ -704,7 +707,7 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 
 							<!-- Links -->
 							
-  <div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.390478290894!2d-98.2040820855073!3d32.220651019452895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651b6de7d768857%3A0x4552760d090bddb8!2sSkinny&#39;s+Repair+Shop!5e0!3m2!1sen!2sth!4v1458912333650" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  						<div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.390478290894!2d-98.2040820855073!3d32.220651019452895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651b6de7d768857%3A0x4552760d090bddb8!2sSkinny&#39;s+Repair+Shop!5e0!3m2!1sen!2sth!4v1458912333650" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 							<!-- /Links -->
 
 						</div>
@@ -714,7 +717,7 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 					<div class="col-md-4">
 							<!-- Footer Logo -->
 							
-  <h3 class="letter-spacing-1">Business Information</h3>
+  						<h3 class="letter-spacing-1">Business Information</h3>
 							<!-- Small Description -->
 							<p class="margin-bottom-20">This is some text outlining business information.</p>
 
@@ -781,24 +784,24 @@ https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-lig
 
 		<!-- JAVASCRIPT FILES -->
 		<script async="" src="//www.google-analytics.com/analytics.js"></script>
-		<script type="text/javascript">var plugin_path = '<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/';</script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">var plugin_path = '<?php echo $url; ?>assets/plugins/';</script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/jquery/jquery-2.1.4.min.js"></script>
 
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/scripts.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/js/scripts.js"></script>
 
 		<!-- REVOLUTION SLIDER -->
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/view/demo.revolution_slider.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/js/view/demo.revolution_slider.js"></script>
 
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/smoothscroll.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/smoothscroll.js"></script>
 		<div id="window-resizer-tooltip" style="display: none;"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1366</span> x <span class="tooltipHeight" id="winHeight">728</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1366</span> x <span class="tooltipHeight" id="vpHeight">667</span></div>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/mixitup/jquery.mixitup.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/form.validate/jquery.form.min.js"></script>
-		<script type="text/javascript" src="<?php echo $_SERVER['REQUEST_URI']; ?>/assets/plugins/form.validate/jquery.validation.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/mixitup/jquery.mixitup.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/form.validate/jquery.form.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/form.validate/jquery.validation.min.js"></script>
 		<script id="hiddenlpsubmitdiv" style="display: none;"></script>
 		<script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script>
 </body>
