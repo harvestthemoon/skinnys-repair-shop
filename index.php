@@ -116,6 +116,7 @@
 									</li>
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li><?php echo $_SERVER['SERVER_NAME']; ?></li>
 									<li>
 										<a href="#">
 											HOME
