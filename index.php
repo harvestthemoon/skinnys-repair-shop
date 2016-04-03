@@ -14,8 +14,8 @@
 <html slick-uniqueid="3" class="js no-touch csstransforms3d csstransitions video webkit chrome win js" style="height: auto;"><!--<![endif]--><head>
 		<meta charset="utf-8">
 		<title>Stephenville and Decatur, TX Electronic Repair and IT Services | Skinny's Repair Shop</title>
-		<meta name="keywords" content="">
-		<meta name="description" content="">
+		<meta name="keywords" content="Phone repair, device repair, electronics repair, stephenville, decatur">
+		<meta name="description" content="Stephenville and Decatur, TX Electronic Repair and IT Services">
 		<meta name="Author" content="James Austin Hattox">
 
 		<!-- mobile settings -->
@@ -44,6 +44,8 @@
 		<link href="<?php echo $url; ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme">
 
 		<link href="<?php echo $url; ?>assets/css/style.css" rel="stylesheet" type="text/css">
+
+		<link rel='shortcut icon' type='image/x-icon' href='<?php echo $url; ?>/favicon.ico' />
 	</head>
 
 	<!--
@@ -644,7 +646,7 @@
 
 					<div class="text-center">
 						<h3 class="nomargin">About Skinny's Repair Shop</h3>
-						<p class="font-lato weight-300 lead nomargin-top">At Skinny’s we love what we do. One guy’s dream has turned into a small business of family and friends. As personal and vital as technology has become to all of us, we know how important it is to get your device back lickity split. That’s why we strive to create a place you actually want to go. No lines, no appointments, no worries. After all, breaking your phone is no fun, but who says getting it fixed can’t be?</p>
+						<p class="font-lato weight-300 lead nomargin-top">At Skinny’s we love what we do. One guy’s dream has turned into a small business of family and friends. As personal and vital as technology has become to all of us, we know how important it is to get your device back lickity split. That’s why we strive to create a place you actually want to go. No lines, no appointments, no worries. After all, breaking your device is no fun, but who says getting it fixed can’t be?</p>
 					</div>
 
 				</div>
