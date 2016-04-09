@@ -254,7 +254,7 @@
 
 					<div class="row">
 
-						<div class="col-md-3 col-sm-3">
+						<div class="col-md-3 col-sm-3 price-box">
 							
 							<div class="price-clean">                                
 								<i class="fa fa-mobile"></i>
@@ -273,13 +273,15 @@
 								  <li>Software</li>
 								  <li>Accessories</li>
 								</ul>
-								<hr>
-								<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								<div class="quote-btn-container">
+									<hr>
+									<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								</div>
 							</div>
 						
 						</div>
 
-						<div class="col-md-3 col-sm-3">
+						<div class="col-md-3 col-sm-3 price-box">
 							
 							<div class="price-clean">                                
 								<i class="fa fa-tablet"></i>
@@ -297,13 +299,15 @@
 								  <li>Software</li>
   								<li>Accessories</li>
 								</ul>
-								<hr>
-								<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								<div class="quote-btn-container">
+									<hr>
+									<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								</div>
 							</div>
 						
 						</div>
 
-						<div class="col-md-3 col-sm-3">
+						<div class="col-md-3 col-sm-3 price-box">
 							<div class="price-clean"> 
 								<i class="fa fa-laptop"></i>
 								<h5>Computer Repair</h5>
@@ -321,14 +325,15 @@
 								  <li>Custom Builds</li>
 								  <li>Accessories</li>
 								</ul>
-
-								<hr>
-								<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								<div class="quote-btn-container">
+									<hr>
+									<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								</div>
 							</div>
 						
 						</div>
 
-						<div class="col-md-3 col-sm-3">
+						<div class="col-md-3 col-sm-3 price-box">
 							
 							<div class="price-clean">                                
 								<i class="fa fa-gears"></i>
@@ -345,8 +350,10 @@
   								<li>Off-site Virtual Support</li>
   								<li>Monthly Contract Service Available</li>
 								</ul>
-								<hr>
-								<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								<div class="quote-btn-container">
+									<hr>
+									<a href="#contact" class="btn btn-3d btn-orange scrollTo">Get Quote</a>
+								</div>
 							</div>
 						
 						</div>
@@ -469,7 +476,25 @@
 			</section>
 			<!-- / -->
 
-<section id="contact">
+			<section class="padding-md parallax parallax-2" style="background-image: url('<?php echo $url; ?>assets/images/demo/1200x800/1-min.jpg');">
+				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="nomargin">About Skinny's Repair Shop</h3>
+						<p class="font-lato weight-300 lead nomargin-top">At Skinny’s we love what we do. One guy’s dream has turned into a small business of family and friends. As personal and vital as technology has become to all of us, we know how important it is to get your device back lickity split. That’s why we strive to create a place you actually want to go. No lines, no appointments, no worries. After all, breaking your device is no fun, but who says getting it fixed can’t be?</p>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="padding-xs timeline-img-container">
+				<img class="timeline-img" alt="Skinny's Repair Shop Timeline" src="<?php echo $url; ?>assets/images/about-us-timeline.jpg">
+			</section>
+
+			<section id="contact">
 				<div class="container">
 					
 					<div class="row">
@@ -591,8 +616,7 @@
 
                     <p>
                             <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 120 E Washington St, Stephenville, TX 76401</span>
-                            <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1254-459-1224">1-(254)-459-1224 (Repairs)</a><br />
-                                    <a class="second-phone-link" href="tel:1254-459-9449">1-(254)-459-9449 (IT Inquiries)</a></span>
+                            <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-991-3757">1-(800)-991-3757</a></span>
                             <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:help@skinnyspr.com">help@skinnyspr.com</a>
                     </p>
 
@@ -600,8 +624,8 @@
 
                     <h4 class="font300">Business Hours</h4>
                     <p>
-                            <span class="block"><strong>Monday - Friday:</strong> 10am to 6pm</span>
-                            <span class="block"><strong>Saturday:</strong> 10am to 2pm</span>
+                            <span class="block"><strong>Monday - Friday:</strong> 7am to 6pm</span>
+                            <span class="block"><strong>Saturday:</strong> 12pm to 4pm</span>
                             <span class="block"><strong>Sunday:</strong> Closed</span>
                     </p>
 
@@ -615,10 +639,9 @@
 							<h2>Decatur, TX</h2>
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> NEED ADDRESS</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:">NEED FIRST PHONE</a><br>
-									<a class="second-phone-link" href="tel:">NEED SECOND PHONE</a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:">NEED EMAIL</a></span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 301 S Washburn St, Decatur, TX</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-991-3757">1-(800)-991-3757</a><br>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:skinnysdecatur@gmail.com">skinnysdecatur@gmail.com</a></span>
 							</p>
 
 							<hr>
@@ -626,8 +649,7 @@
 							<h4 class="font300">Business Hours</h4>
 							<p>
 								<span class="block"><strong>Monday - Friday:</strong> 10am to 6pm</span>
-								<span class="block"><strong>Saturday:</strong> 10am to 2pm</span>
-								<span class="block"><strong>Sunday:</strong> Closed</span>
+								<span class="block"><strong>Saturday - Sunday:</strong> Closed</span>
 							</p>
 
 						</div>
@@ -638,25 +660,7 @@
 				</div>
 			</section>
 			<!-- /PARALLAX -->
-			
-			<section class="padding-md parallax parallax-2" style="background-image: url('<?php echo $url; ?>assets/images/demo/1200x800/1-min.jpg');">
-				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
-
-				<div class="container">
-
-					<div class="text-center">
-						<h3 class="nomargin">About Skinny's Repair Shop</h3>
-						<p class="font-lato weight-300 lead nomargin-top">At Skinny’s we love what we do. One guy’s dream has turned into a small business of family and friends. As personal and vital as technology has become to all of us, we know how important it is to get your device back lickity split. That’s why we strive to create a place you actually want to go. No lines, no appointments, no worries. After all, breaking your device is no fun, but who says getting it fixed can’t be?</p>
-					</div>
-
-				</div>
-
-			</section>
-
-			<section class="padding-xs timeline-img-container">
-				<img class="timeline-img" alt="Skinny's Repair Shop Timeline" src="<?php echo $url; ?>assets/images/about-us-timeline.jpg">
-			</section>
-
+		
 			<!-- 
 						controlls-over		= navigation buttons over the image 
 						buttons-autohide 	= navigation buttons visible on mouse hover only
@@ -748,11 +752,11 @@
 										Stephenville, TX 76401 USA<br>
 									</li>
 									<li class="footer-sprite phone">
-										Phone: 1-(254)-459-1224 (Repairs)
+										Phone: 1-(800)-991-3757
 									</li>
-									<li class="footer-sprite nothing">
+									<!--li class="footer-sprite nothing">
 										1-(254)-459-9449 (IT Inquiries)
-									</li>
+									</li-->
 									<li class="footer-sprite email">
 										<a href="mailto:help@skinnysrs.com">help@skinnysrs.com</a>
 									</li>
@@ -824,5 +828,12 @@
 		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/form.validate/jquery.validation.min.js"></script>
 		<script id="hiddenlpsubmitdiv" style="display: none;"></script>
 		<script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script>
+		<script>
+			$(document).ready(function() {
+				var row = $('#pricing .row'),
+					height = row.height();
+				row.css('height', height + 'px');
+			});
+		</script>
 </body>
 </html>
