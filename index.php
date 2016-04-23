@@ -722,6 +722,7 @@
 		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/jquery/jquery-2.1.4.min.js"></script>
 
 		<script type="text/javascript" src="<?php echo $url; ?>assets/js/scripts.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/js/contact.js"></script>
 
 		<!-- REVOLUTION SLIDER -->
 		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
