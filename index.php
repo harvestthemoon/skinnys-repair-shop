@@ -128,7 +128,7 @@
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li>
-										<a href="#">
+										<a href="#header">
 											HOME
 										</a>
 									</li>
@@ -184,7 +184,7 @@
 					<div class="swiper-wrapper">
 
 						<!-- SLIDE 1 -->
-						<div class="swiper-slide" style="background-image: url('<?php echo $url; ?>assets/images/demo/720x400/34-min.jpg');">
+						<div class="swiper-slide" style="background-image: url('<?php echo $url; ?>assets/images/macbook_coffee.jpg');">
 							<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 							
 							<div class="display-table">
@@ -364,7 +364,7 @@
 			</section>
 
 			<!-- -->
-			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $url; ?>assets/images/demo/1200x800/20-min.jpg')">
+			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $url; ?>assets/images/scott_hands.jpg')">
 				<div class="overlay dark-6"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -476,7 +476,7 @@
 			</section>
 			<!-- / -->
 
-			<section class="padding-md parallax parallax-2" style="background-image: url('<?php echo $url; ?>assets/images/demo/1200x800/1-min.jpg');">
+			<section id="about" class="padding-md parallax" style="background-image: url('<?php echo $url; ?>assets/images/three_amigos.jpg');">
 				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -493,6 +493,55 @@
 			<section class="padding-xs timeline-img-container">
 				<img class="timeline-img" alt="Skinny's Repair Shop Timeline" src="<?php echo $url; ?>assets/images/about-us-timeline.jpg">
 			</section>
+		
+		<section class="padding-xxs">
+			<!-- 
+						controlls-over		= navigation buttons over the image 
+						buttons-autohide 	= navigation buttons visible on mouse hover only
+						
+						data-plugin-options:
+							"singleItem": true
+							"autoPlay": true (or ms. eg: 4000)
+							"navigation": true
+							"pagination": true
+					-->
+					<span class="authorized-reseller-text">Authorized reseller of:</span>
+					<div id="logos-bottom" class="owl-carousel nomargin text-center" data-plugin-options='{"singleItem": false, "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": false, "pagination": true}'>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-mophie.png" alt="Mophie Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-lifeproof.png" alt="Lifeproof Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-incipio.png" alt="Incipio Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-gadget-guard.png" alt="Gagdget Guard Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-speck.png" alt="Speck Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-otterbox.png" alt="Otterbox Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-sonix.png" alt="Sonix Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-spigen.png" alt="Spigen Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-belkin.png" alt="Belkin Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-marley.png" alt="Marley Logo">
+						</div>
+						<div>
+							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-puregear.png" alt="Puregear Logo">
+						</div>
+					</div>
+				</section>
 
 			<section id="contact">
 				<div class="container">
@@ -660,145 +709,6 @@
 				</div>
 			</section>
 			<!-- /PARALLAX -->
-		
-			<!-- 
-						controlls-over		= navigation buttons over the image 
-						buttons-autohide 	= navigation buttons visible on mouse hover only
-						
-						data-plugin-options:
-							"singleItem": true
-							"autoPlay": true (or ms. eg: 4000)
-							"navigation": true
-							"pagination": true
-					-->
-					<span class="authorized-reseller-text">Authorized reseller of:</span>
-					<div id="logos-bottom" class="owl-carousel nomargin text-center" data-plugin-options='{"singleItem": false, "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": false, "pagination": true}'>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-mophie.png" alt="Mophie Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-lifeproof.png" alt="Lifeproof Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-incipio.png" alt="Incipio Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-gadget-guard.png" alt="Gagdget Guard Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-speck.png" alt="Speck Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-otterbox.png" alt="Otterbox Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-sonix.png" alt="Sonix Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-spigen.png" alt="Spigen Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-belkin.png" alt="Belkin Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-marley.png" alt="Marley Logo">
-						</div>
-						<div>
-							<img class="img-responsive" src="<?php echo $url; ?>assets/images/product-logos/logo-puregear.png" alt="Puregear Logo">
-						</div>
-					</div>
-
-			<!-- FOOTER -->
-			<footer id="footer">
-				<div class="container">
-
-					<div class="row">
-
-						<div class="col-md-4">
-
-							<!-- Newsletter Form -->
-							<h3 class="letter-spacing-1">About Skinny's Phone Repair</h3>
-							<p>This is a little more filler text on the subject of Skinny's Phone Repair. Filler text? Gotta add more filler text. Could be some filler text. Probably a little filler text, but that never hurt anyone.</p>
-
-							
-							<p>This is a little more filler text on the subject of Skinny's Phone Repair. Filler text? Could be some filler text. Probably a little filler text, but that never hurt anyone.</p><!-- /Newsletter Form -->
-
-							<!-- Social Icons -->
-							
-							<!-- /Social Icons -->
-
-						</div><div class="col-md-4">
-
-							<!-- Links -->
-							
-  						<div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.390478290894!2d-98.2040820855073!3d32.220651019452895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651b6de7d768857%3A0x4552760d090bddb8!2sSkinny&#39;s+Repair+Shop!5e0!3m2!1sen!2sth!4v1458912333650" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-							<!-- /Links -->
-
-						</div>
-
-						
-
-					<div class="col-md-4">
-							<!-- Footer Logo -->
-							
-  						<h3 class="letter-spacing-1">Business Information</h3>
-							<!-- Small Description -->
-							<p class="margin-bottom-20">This is some text outlining business information.</p>
-
-							<!-- Contact Address -->
-							<address>
-								<ul class="list-unstyled">
-									<li class="footer-sprite address">120 E Washington<br>
-										Stephenville, TX 76401 USA<br>
-									</li>
-									<li class="footer-sprite phone">
-										Phone: 1-(800)-991-3757
-									</li>
-									<!--li class="footer-sprite nothing">
-										1-(254)-459-9449 (IT Inquiries)
-									</li-->
-									<li class="footer-sprite email">
-										<a href="mailto:help@skinnysrs.com">help@skinnysrs.com</a>
-									</li>
-								</ul>
-							</address>
-							<!-- /Contact Address -->
-
-						</div></div>
-
-				</div>
-
-				<div class="copyright">
-					<div class="container">
-						<div class="margin-top-20 social-container">
-								<a href="https://www.facebook.com/SkinnysPhoneRepair" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="https://twitter.com/skinnysrs" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="https://plus.google.com/107448460262208765373/about" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google+">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="https://www.instagram.com/skinnysrepairshop/" class="social-icon social-icon-border social-instagram pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
-									<i class="icon-instagram"></i>
-									<i class="icon-instagram"></i>
-								</a>
-					
-							</div>
-							<span class="copyright-text">
-  © 2016 All Rights Reserved, Skinny's Phone Repair</span>
-</div>
-				</div>
-			</footer>
-			<!-- /FOOTER -->
 
 		</div>
 		<!-- /wrapper -->
