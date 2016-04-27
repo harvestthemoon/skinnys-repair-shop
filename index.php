@@ -194,8 +194,10 @@
 										<div class="row">
 											<div class="text-center col-md-8 col-xs-12 col-md-offset-2">
 
+												<img class="mobile-logo wow fadeInDown" src="<?php echo $url; ?>assets/images/skinnys-logo.png" alt="Skinny's Repair Shop Logo" />
+
 												<h1 class="bold wow fadeInUp" data-wow-delay="0.4s">Skinny's Repair Shop</h1>
-<h2 class="bold wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">Stephenville | Decatur</h2>
+												<h2 class="bold wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">Stephenville | Decatur</h2>
 											</div>
 										</div>
 							
@@ -218,7 +220,7 @@
 					-->
 
 					<div class="sticky-side sticky-side-left visible-md visible-lg" id="slider-social-icons-container">
-						<a href="https://www.facebook.com/SkinnysPhoneRepair" class="social-icon social-icon-light  social-facebook">
+						<a href="https://www.facebook.com/SkinnysRepairShop" class="social-icon social-icon-light  social-facebook">
 							<i class="icon-facebook"></i>
 							<i class="icon-facebook"></i>
 						</a>
@@ -260,15 +262,14 @@
 								<i class="fa fa-mobile"></i>
 								<h5>Cell Phone Repair</h5>
 								<hr>
-								<p>Apple/Samsung/LG</p>
-								<p class="text-left">Repairs</p>
+								<p>Apple, Samsung, LG</p>
 								<ul>
 								  <li>Screen Replacement</li>
 								  <li>Power Issues</li>
 								  <li>Speakers</li>
 								  <li>Physical Buttons</li>
 								  <li>Cameras</li>
-								  <li>Frame/Housing</li>
+								  <li>Frame, Housing</li>
 								  <li>Water damage</li>
 								  <li>Software</li>
 								  <li>Accessories</li>
@@ -287,14 +288,14 @@
 								<i class="fa fa-tablet"></i>
 								<h5>Tablet Repair</h5>
 								<hr>
-								<p>Apple/Samsung/LG/Kindle</p>
+								<p>Apple, Samsung, LG, Kindle</p>
 								<ul>
 								  <li>Screen Replacement</li>
 								  <li>Power Issues</li>
 								  <li>Speakers</li>
 								  <li>Physical Buttons</li>
 								  <li>Cameras</li>
-								  <li>Frame/Housing</li>
+								  <li>Frame, Housing</li>
 								  <li>Water damage</li>
 								  <li>Software</li>
   								<li>Accessories</li>
@@ -312,15 +313,15 @@
 								<i class="fa fa-laptop"></i>
 								<h5>Computer Repair</h5>
 								<hr>
-								<p>Most Laptop/Desktop Makes and Models</p>
+								<p>Most Laptop, Desktop Makes and Models</p>
 								<ul>
   								<li>Screen Replacement</li>
 								  <li>Power Issues</li>
-								  <li>Hard Drive Replacement/Recovery</li>
+								  <li>Hard Drive Replacement, Recovery</li>
 									<li>Virus Removal</li>
 								  <li>Data Transfer</li>
 								  <li>Software Upgrade</li>
-								  <li>Cleanup/Optimization</li>
+								  <li>Cleanup, Optimization</li>
 								  <li>Password Recovery</li>
 								  <li>Custom Builds</li>
 								  <li>Accessories</li>
@@ -341,7 +342,7 @@
 								<hr>
 								<p>Business and Home IT Support</p>
 								<ul>
-								  <li>Hardware/Software Repair</li>
+								  <li>Hardware, Software Repair</li>
 								  <li>Server Maintenance</li>
 								  <li>Networking</li>
 									<li>System Upgrades</li>
@@ -666,7 +667,7 @@
                     <p>
                             <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 120 E Washington St, Stephenville, TX 76401</span>
                             <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-991-3757">1-(800)-991-3757</a></span>
-                            <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:help@skinnyspr.com">help@skinnyspr.com</a>
+                            <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:help@skinnysrs.com">help@skinnysrs.com</a>
                     </p>
 
                     <hr>

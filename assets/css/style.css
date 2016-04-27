@@ -97,7 +97,6 @@ section {
 
 .price-clean ul {
   text-align: left;
-  padding-bottom: 30%;
 }
 
 .price-clean .fa {
@@ -107,6 +106,7 @@ section {
   border-radius: 50%;
   line-height: 155px;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .price-clean .fa-mobile {
@@ -123,13 +123,6 @@ section {
 
 .price-clean .fa-gears {
   font-size: 81px;
-}
-
-.quote-btn-container {
-	position: absolute;
-	bottom: 5%;
-	left: 0;
-	width: 100%;
 }
 
 .btn-orange {
@@ -179,6 +172,10 @@ section {
 .timeline-img-container {
 	background-color: #4B4956;
 	text-align: center;
+}
+
+.timeline-img {
+	max-width: 100%;
 }
 
 .authorized-reseller-text {
@@ -372,4 +369,55 @@ a.href-reset.active,
 .switch-primary.switch-round > input:checked + .switch-label:after, 
 section.dark .nav-tabs.nav-clean > li.active > a {
 	color: #E6553F;
+}
+
+@media screen and (min-width: 992px) {
+	.mobile-logo {
+		display: none!important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#topNav > .container {
+		padding: 0;
+	}
+
+	#topNav button.btn-mobile {
+		margin-right: 2%;
+	}
+
+	#topNav .logo-list-item {
+		display: none!important;
+	}
+
+	.mobile-logo {
+		max-height: 150px;
+	}
+
+	#header.transparent + #slider h1 {
+		margin-top: 40px!important;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	.quote-btn-container {
+		position: absolute;
+		bottom: 5%;
+		left: 0;
+		width: 100%;
+	}
+
+	.price-clean ul {
+	  padding-bottom: 30%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#pricing > .container > .row {
+		height: auto!important;
+	}
+
+	#pricing ul {
+		padding-left: 41%;
+	}
 }
