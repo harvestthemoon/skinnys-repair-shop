@@ -13,6 +13,9 @@ var _hash = window.location.hash;
 var hash = window.location.hash,
 	isSubmission = ( hash === '#alert_success' || hash === '#alert_failed' || hash === '#alert_mandatory' );
 
-if (isSubmission) {
-	$('#contact')[0].scrollIntoView();
-}
+console.log(isSubmission);
+setTimeout(function() {
+	if (isSubmission) {
+		$('#contact')[0].scrollIntoView();
+	}
+}, 500);
