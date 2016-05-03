@@ -134,10 +134,7 @@ section {
 		color: #fff;
 	}
 
-#testimonials {
-	background-image: url('assets/images/demo/1200x800/20-min.jpg'); 
-	background-position: 50% 0;
-}
+#testimonials {}
 	#testimonials .owl-item {
 		margin-top: .1%;
 	}
