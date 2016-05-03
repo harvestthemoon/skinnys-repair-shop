@@ -422,10 +422,18 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 	#pricing ul {
 		padding-left: 41%;
 	}
+
+	#testimonials {
+		max-height: 750px;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	#pricing ul {
 		padding-left: 35%;
+	}
+
+	#testimonials {
+		max-height: 550px;
 	}
 }
