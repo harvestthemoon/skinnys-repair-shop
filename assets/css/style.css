@@ -397,6 +397,7 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 
 	#about {
 			background-position: 0!important;
+			background-position: 50%;
 	}
 }
 
