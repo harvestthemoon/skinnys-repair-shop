@@ -134,9 +134,7 @@ section {
 		color: #fff;
 	}
 
-#testimonials {
-	background-size: 10%!important;
-}
+#testimonials 
 	#testimonials .owl-item {
 		margin-top: .1%;
 	}
