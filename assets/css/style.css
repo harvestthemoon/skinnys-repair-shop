@@ -134,7 +134,9 @@ section {
 		color: #fff;
 	}
 
-#testimonials {}
+#testimonials {
+	background-size: 10%!important;
+}
 	#testimonials .owl-item {
 		margin-top: .1%;
 	}
@@ -201,7 +203,7 @@ section {
 
 #about {
 	background-attachment: initial;
-	background-position: 0 -100px;
+	background-position: 50%;
 }
 
 #footer h3 {
@@ -396,8 +398,7 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 	}
 
 	#about {
-			background-position: 0!important;
-			background-position: 50%;
+			background-position: 50%!important;
 	}
 }
 
@@ -423,14 +424,22 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 		padding-left: 41%;
 	}
 
+	#about {
+		background-size: auto 750px!important;
+	}
+
 	#testimonials {
 		max-height: 750px;
 	}
 }
 
 @media screen and (max-width: 550px) {
+	#about {
+		background-size: auto 550px!important;
+	}
+
 	#pricing ul {
-		padding-left: 35%;
+		padding-left: 30%;
 	}
 
 	#testimonials {
