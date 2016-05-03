@@ -370,7 +370,7 @@
 			</section>
 
 			<!-- -->
-			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $url; ?>assets/images/three_amigos.jpg')">
+			<section class="parallax parallax-3" id="testimonials" style="background-image:url('<?php echo $url; ?>assets/images/scott_hands.jpg')">
 				<div class="overlay dark-6"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">

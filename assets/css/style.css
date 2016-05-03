@@ -134,7 +134,7 @@ section {
 		color: #fff;
 	}
 
-#testimonials 
+#testimonials {}
 	#testimonials .owl-item {
 		margin-top: .1%;
 	}
@@ -428,6 +428,8 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 
 	#testimonials {
 		max-height: 750px;
+		background-position: 50%!important;
+		background-attachment: initial!important;	
 	}
 }
 
