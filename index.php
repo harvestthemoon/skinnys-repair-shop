@@ -386,7 +386,96 @@
 								</cite>
 							</div>
 						</div>
-						
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">They replaced the hard drive on my computer and were able to save what I wanted saved from my old dead hard drive! They called before doing anything, with all my options, and were so very nice and helpful. I will definitely use them again!</p>
+								</blockquote>
+								<cite>
+									Tammy Whitehead Culpepper
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">iPad Emergency-dropped and shattered the screen before leaving to go out of town and really needed to take it with me. Who did I call...SKINNY'S of course!!! Thank you so much for fixing it up in just the nick of time! Kourtney</p>
+								</blockquote>
+								<cite>
+									Tony Kourtney Landes
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">They had my iPhone 6 screen fixed so fast and it was a quality job! It isn't super cheap but you definitely get your money's worth. I would absolutely recommend them instead of having apple or someone else fix your phone.</p>
+								</blockquote>
+								<cite>
+									Zoe Goldberg
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">After the Apple Store gave me the run around and I feel made my phone worse, I brought it to Skinny's in Decatur after a friend recommended it. The gentlemen that helped me was so nice, polite, and honest and had my phone working in 30 minutes. They explained everything in detail that could be wrong and things they might have to do to fix it. We need more business owners like this in Wise County. If I could give this place 100 stars I would.</p>
+								</blockquote>
+								<cite>
+									Bryn Vincent
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">I was wanting to give away my older MacBook Pro but it very laggy and Skinny's was able to talk to me via messaging on Facebook with pricing information, etc. Dropped it off after work and received a text once it was done! Super easy process and everything is working perfectly! Also, they are incredibly friendly. Shop local &hearts;</p>
+								</blockquote>
+								<cite>
+									Catalina Torres
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">I just left and he will ALWAYS get my business! Extremely nice & very helpful, something almost impossible to find these days! Highly recommend!</p>
+								</blockquote>
+								<cite>
+									Kelly Arden Hall
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">If you're in the need for an electronic repair, this is definitely the place to take your broken device. Reasonable prices. Awesomely nice people. Speedy service, often same day.</p>
+								</blockquote>
+								<cite>
+									Tiffany Shaver
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">Top notch service &amp; warranty! Top notch people! They also do computer work / vius removal! This is where I will always go to get my devices repaired! Decatur is a better place because of Skinny's.</p>
+								</blockquote>
+								<cite>
+									Jon K
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content nopadding">
+								<blockquote>
+									<p class="lead">Perfect repair job, phone looks good as new! I would highly recommend them to friends, family, or anyone else who needs their phone repaired quickly and for a reasonable price.</p>
+								</blockquote>
+								<cite>
+									Kristine Logan Summers
+								</cite>
+							</div>
+						</div>
 					</div>
 
 				</div>
