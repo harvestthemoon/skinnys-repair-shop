@@ -11,12 +11,17 @@
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
 <!--[if gt IE 9]><!-->
-<html slick-uniqueid="3" class="js no-touch csstransforms3d csstransitions video webkit chrome win js" style="height: auto;"><!--<![endif]--><head>
+<html slick-uniqueid="3" class="js no-touch csstransforms3d csstransitions video webkit chrome win js" style="height: auto;"><!--<![endif]-->
+<head>
 		<meta charset="utf-8">
 		<title>Stephenville and Decatur, TX Electronic Repair and IT Services | Skinny's Repair Shop</title>
 		<meta name="keywords" content="Phone repair, device repair, electronics repair, stephenville, decatur">
 		<meta name="description" content="Stephenville and Decatur, TX Electronic Repair and IT Services">
 		<meta name="Author" content="James Austin Hattox">
+
+		<script src="https://use.typekit.net/fpa3xjx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script><script src="https://use.typekit.net/fpa3xjx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
