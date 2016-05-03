@@ -62,11 +62,6 @@ section {
 	height: 100%;
 }
 
-#slider h1,
-#slider h2 {
-	font-family: "Market Deco";
-}
-
 #slider-social-icons-container {
 	position: absolute;
 	width: 175px;
