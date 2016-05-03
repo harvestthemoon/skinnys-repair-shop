@@ -389,6 +389,7 @@ section.dark .nav-tabs.nav-clean > li.active > a {
 
 	.mobile-logo {
 		max-height: 150px;
+		margin-top: 50px;
 	}
 
 	#header.transparent + #slider h1 {
