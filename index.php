@@ -201,8 +201,8 @@
 
 												<img class="mobile-logo wow fadeInDown" src="<?php echo $url; ?>assets/images/skinnys-logo.png" alt="Skinny's Repair Shop Logo" />
 
-												<h1 class="bold wow fadeInUp" data-wow-delay="0.4s">Skinny's Repair Shop</h1>
-												<h2 class="bold wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">Stephenville | Decatur</h2>
+												<h1 class="top-h1 wow fadeInUp" data-wow-delay="0.4s">Skinny's Repair Shop</h1>
+												<h2 class="top-h2 wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">Stephenville | Decatur</h2>
 											</div>
 										</div>
 							

@@ -39,6 +39,13 @@ section {
 	letter-spacing: .05em;
 }
 
+.top-h1,
+.top-h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
 .top-links .text-welcome {
   padding: 10px 0 10px;
   border-right: 0;
