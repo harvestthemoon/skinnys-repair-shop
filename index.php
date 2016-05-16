@@ -27,110 +27,21 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-		<!-- WEB FONTS : use %7C instead of | (pipe) -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" type="text/css">
 
-		<!-- CORE CSS -->
-		<link href="<?php echo $url; ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-		<!-- REVOLUTION SLIDER -->
-		<link href="<?php echo $url; ?>assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $url; ?>assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css">
-
-		<!-- SWIPER SLIDER -->
-		<link href="<?php echo $url; ?>assets/plugins/slider.swiper/dist/css/swiper.min.css" rel="stylesheet" type="text/css" />
-
-		<!-- THEME CSS -->
-		<link href="<?php echo $url; ?>assets/css/essentials.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $url; ?>assets/css/layout.css" rel="stylesheet" type="text/css">
-
-		<!-- PAGE LEVEL SCRIPTS -->
-		<link href="<?php echo $url; ?>assets/css/header-1.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $url; ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme">
-
-		<link href="<?php echo $url; ?>assets/css/style.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url; ?>assets/css/dist.min.css" rel="stylesheet" type="text/css">
 
 		<link rel='shortcut icon' type='image/x-icon' href='<?php echo $url; ?>/favicon.ico' />
 	</head>
-
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/boxed_background/1.jpg"
-	-->
 	<body class="smoothscroll enable-animation" cz-shortcut-listen="true">
-						<!-- 
-				AVAILABLE HEADER CLASSES
-
-				Default nav height: 96px
-				.header-md 		= 70px nav height
-				.header-sm 		= 60px nav height
-
-				.noborder 		= remove bottom border (only with transparent use)
-				.transparent	= transparent header
-				.translucent	= translucent header
-				.sticky			= sticky header
-				.static			= static header
-				.dark			= dark header
-				.bottom			= header on bottom
-				
-				shadow-before-1 = shadow 1 header top
-				shadow-after-1 	= shadow 1 header bottom
-				shadow-before-2 = shadow 2 header top
-				shadow-after-2 	= shadow 2 header bottom
-				shadow-before-3 = shadow 3 header top
-				shadow-after-3 	= shadow 3 header bottom
-
-				.clearfix		= required for mobile menu, do not remove!
-
-				Example Usage:  class="clearfix sticky header-sm transparent noborder"
-			-->
 			<div id="header" class="sticky  header-md transparent clearfix">
-
-				<!-- TOP NAV -->
 				<header id="topNav">
-					<div class="container"><!-- add .full-container for fullwidth -->
-
-						<!-- Mobile Menu Button -->
+					<div class="container">
 						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
 							<i class="fa fa-bars"></i>
 						</button>
-
-						<!-- 
-							Top Nav 
-							
-							AVAILABLE CLASSES:
-							submenu-dark = dark sub menu
-						-->
 						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
 							<nav class="nav-main">
-
-								<!--
-									NOTE
-									
-									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
-									Direct Link Example: 
-
-									<li>
-										<a href="#">HOME</a>
-									</li>
-								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li>
 										<a href="#header">
@@ -158,33 +69,12 @@
 										</a>
 									</li>
 								</ul>
-
 							</nav>
 						</div>
-
 					</div>
 				</header>
-				<!-- /Top Nav -->
-
 			</div>
-
-
-
-
-			<!-- 
-				SLIDER
-
-				Classes:
-					.fullheight = full height slider
-			-->
 			<section id="slider" class="fullheight">
-
-				<!--
-					SWIPPER SLIDER PARAMS
-					
-					data-effect="slide|fade|coverflow"
-					data-autoplay="2500|false" 						(remove to disable autoplay)
-				-->
 				<div class="swiper-container" data-effect="fade" data-autoplay="false">
 					<div class="swiper-wrapper">
 
@@ -723,28 +613,8 @@
 		<a href="#" id="toTop" style="display: none;"></a>
 
 		<!-- JAVASCRIPT FILES -->
-		<script async="" src="//www.google-analytics.com/analytics.js"></script>
 		<script type="text/javascript">var plugin_path = '<?php echo $url; ?>assets/plugins/';</script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/jquery/jquery-2.1.4.min.js"></script>
-
-		<script type="text/javascript" src="<?php echo $url; ?>assets/js/scripts.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/js/contact.js"></script>
-
-		<!-- REVOLUTION SLIDER -->
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/js/view/demo.revolution_slider.js"></script>
-
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/smoothscroll.js"></script>
-		<div id="window-resizer-tooltip" style="display: none;"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1366</span> x <span class="tooltipHeight" id="winHeight">728</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1366</span> x <span class="tooltipHeight" id="vpHeight">667</span></div>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/mixitup/jquery.mixitup.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/form.validate/jquery.form.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>assets/plugins/form.validate/jquery.validation.min.js"></script>
-		<script id="hiddenlpsubmitdiv" style="display: none;"></script>
-		<script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script>
+		<script type="text/javascript" src="<?php echo $url; ?>assets/js/dist.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				var row = $('#pricing .row'),
